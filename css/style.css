@@ -39,6 +39,8 @@ header{
 --------------------------------------------------------------*/
 #popular-goods i{
 	color: var(--color-amarillo);
+	text-align: center;
+	
 }
 
 
