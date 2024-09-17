@@ -12,7 +12,7 @@ a{
 	padding: 5px 20px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-	color:var(--color-negro);
+	color:var(--color-amarillo);
 }
 .navbar-light .navbar-nav .active.nav-link{
 	background-color:transparent;

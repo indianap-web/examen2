@@ -37,10 +37,16 @@ header{
 /*--------------------------------------------------------------
 # Popular Goods
 --------------------------------------------------------------*/
+#popular-goods i{
+	color: var(--color-amarillo);
+}
+
+
 #popular-goods .subtitulo{
 	padding-left: 15%;
 	padding-right: 15%;
 }
+
 #popular-goods h5{
 	text-align: center;
 	color: var(--color-negro);
