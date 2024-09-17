@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--color-amarillo: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+	--fondo-oscuro: #282932;
+}
+body{
+	color:var(--color-contenido);
+	font-family: "Catamaran", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Popular Goods
+--------------------------------------------------------------*/
+#popular-goods .subtitulo{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+#popular-goods h5{
+	text-align: center;
+	color: var(--color-negro);
+	font-weight: 600;
+	
+}
+#popular-goods h3{
+	text-align: center;
+	color: var(--color-negro);
+	font-weight: 600;
+}
+#popular-goods p{
+	text-align: center;
+}
+#popular-goods .btn{
+	border: 2px solid var(--color-amarillo);
+	border-radius: 70px;
+	border-color: var(--color-amarillo);
+	color: var(--color-negro);
+	background-color: var(--color-amarillo);
+	padding: 10px 60px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 10px
+}
+#popular-goods .titulo{
+	color: var(--color-negro);
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 60px;
+	text-align: center;
+
+}
+#popular-goods h4.subtitle{
+	color: var(--color-amarillo);
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+#popular-goods  .btn:hover{
+	border: 2px solid #fff;
+	border-radius: 70px;
+	border-color: #fff;
+	color: #fff;
+	background-color: var(--color-amarillo);
+}
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid var(--color-amarillo) !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: var(--color-negro);
+    border: 0 !important;
+}
+/*--------------------------------------------------------------
+# Popular Goods
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# HERO
+--------------------------------------------------------------*/
+#hero {
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#hero h2{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 60px
+
+}
+
+#hero h1 b{
+	color: var(--color-amarillo);
+	font-size: 40px;
+	font-weight: 700;
+}
+#hero .btn{
+	border: 2px solid var(--color-amarillo);
+	border-radius: 70px;
+	border-color: var(--color-amarillo);
+	color: var(--color-negro);
+	background-color: var(--color-amarillo);
+	padding: 20px 80px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 10px
+}
+#hero .btn:hover{
+	border: 2px solid #fff;
+	border-radius: 70px;
+	border-color: #fff;
+	color: #fff;
+	background-color: var(--color-amarillo);
+}
+/*--------------------------------------------------------------
+# HERO
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# SIT AT HOME
+--------------------------------------------------------------*/
+#sit-at-home{
+	background-color: var(--fondo-oscuro);
+}
+#sit-at-home h2{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 60px
+
+}
+#sit-at-home h3{
+	color: var(--color-amarillo);
+	font-size: 40px;
+	font-weight: 700;
+}
+#sit-at-home p{
+	font-size: 16px;
+	font-weight: 200;
+}
+#sit-at-home .btn{
+	border: 2px solid var(--color-amarillo);
+	border-radius: 70px;
+	border-color: var(--color-amarillo);
+	color: var(--color-negro);
+	background-color: var(--color-amarillo);
+	padding: 20px 80px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 10px
+}
+#sit-at-home .btn:hover{
+	border: 2px solid #fff;
+	border-radius: 70px;
+	border-color: #fff;
+	color: #fff;
+	background-color: var(--color-amarillo);
+}
+#sit-at-home i{
+	font-size: 40px;
+	color: var(--color-amarillo);
+}
+#sit-at-home img{
+	width: 600px;
+	margin-left: -20px;
+}
+#sit-at-home .gomoto-icon{
+	width: 60px;
+	margin-left: 15px;
+}
+#sit-at-home ul{
+	padding-top:40px;
+	margin-left: -50px;
+}
+#sit-at-home li p{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+}
+#sit-at-home li{
+	margin-left: 20px;
+}
+/*--------------------------------------------------------------
+# SIT AT HOME
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
