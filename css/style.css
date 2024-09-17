@@ -13,6 +13,9 @@ body{
 	font-size: 16px;
 	font-weight: 300;
 }
+.section {
+	padding: 80px 0px;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -59,16 +62,15 @@ header{
 	color: var(--color-negro);
 	background-color: var(--color-amarillo);
 	padding: 10px 60px;
-	margin-top: 20px;
+	margin-top: 10px;
 	font-size: 14px;
 	font-weight: 600;
-	margin-left: 10px
+	margin-left: 80px;
 }
 #popular-goods .titulo{
 	color: var(--color-negro);
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: 700;
-	padding-top: 60px;
 	text-align: center;
 
 }
@@ -115,22 +117,30 @@ header{
 	background-size: cover;
 	padding-top: 40px;
 	color: rgba(255, 255, 255, 0.55);
-	text-align: center;
+	text-align: left;
 	font-size: 13px;
 	font-weight: 600;
 }
 
 #hero h2{
 	color: #fff;
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 700;
-	padding-top: 60px
-
+	padding-top: 60px;
+	text-align: left;
 }
-
+#hero h1{
+	text-align: left;
+}
+#hero p{
+	text-align: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
 #hero h1 b{
 	color: var(--color-amarillo);
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 700;
 }
 #hero .btn{
